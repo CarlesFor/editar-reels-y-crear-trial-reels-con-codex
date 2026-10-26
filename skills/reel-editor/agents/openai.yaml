@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editor de reels"
+  short_description: "Reels a cámara con b-roll y subtítulos animados"
+  default_prompt: "Usa $reel-editor para editar este reel a cámara con ritmo dinámico, b-roll pertinente, retornos a la persona y subtítulos animados con variedad coherente."

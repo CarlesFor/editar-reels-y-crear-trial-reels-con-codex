@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creador de Trial Reels"
+  short_description: "Variantes editoriales de reels para probar enfoques"
+  default_prompt: "Usa $trial-reels para crear cuatro variantes editoriales de este reel terminado, con enfoques, aperturas y montajes diferenciados, y entrega los vídeos realizables con una tabla de sus diferencias."
