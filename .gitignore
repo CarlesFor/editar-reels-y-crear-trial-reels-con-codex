@@ -1,0 +1,22 @@
+# Material de trabajo y exportaciones: el repositorio distribuye las skills.
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.zip
+originales/
+entregas/
+
+# Configuracion privada y archivos temporales.
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+copias-skills-reels/
