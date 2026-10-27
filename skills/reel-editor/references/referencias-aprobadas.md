@@ -1,6 +1,8 @@
 # Referencias aprobadas y criterio transferible
 
-Preferencias expresadas por el usuario el 27 de octubre de 2026. Este repositorio distribuye las notas de análisis; los vídeos originales de referencia son material local y no se incluyen. Cuando estén disponibles y el usuario autorice su consulta, revisar sus secuencias para comprender composición y movimiento; no utilizar sus planos, personajes, gráficos, música o textos como recursos del nuevo reel. Si faltan, aplicar estas notas e identificar el límite de revisión, sin dar por visto el vídeo original.
+Preferencias expresadas por el usuario el 27 de octubre de 2026 y corregidas con sus revisiones posteriores. Se incluyen los dos vídeos de referencia en la carpeta `videos/`, junto a estas notas. El instalador copia esos archivos con el resto de la skill. Revisar sus secuencias para comprender composición y movimiento; no utilizar sus planos, personajes, gráficos, música o textos como recursos del nuevo reel. Si las herramientas no permiten inspeccionarlos, aplicar estas notas e identificar el límite de revisión, sin dar por visto el vídeo original.
+
+Los archivos fueron aportados por el mantenedor, que indicó que proceden de vídeos públicos de YouTube y solicitó incluirlos. No se ha verificado una licencia de redistribución ni se les asigna la licencia del código o de las instrucciones. La ficha [procedencia de los vídeos](videos/procedencia.md) conserva los nombres y huellas de los archivos; no inventar autores, enlaces originales ni condiciones de licencia.
 
 El análisis visual que originó estas notas utiliza secuencias de fotogramas repartidos por toda la duración: aproximadamente cada 0,27 s en la primera referencia y cada 0,50 s en la segunda, junto con transcripción automática del audio. Permite estudiar estados y evolución visual; no equivale a una reproducción perceptiva completa ni a una escucha directa. No se atribuyen aquí BPM, diseño sonoro exacto, curvas de velocidad, fuentes comerciales concretas ni otras propiedades que ese análisis no acredita.
 
@@ -11,7 +13,7 @@ El análisis visual que originó estas notas utiliza secuencias de fotogramas re
 - Fluidez en la escena completa, desde el plano anterior hasta su salida. No considerar corregido un apoyo que aparece completo de golpe porque sus subtítulos tengan curvas suaves. Revisar aceleración, frenado, continuidad y cadencia real.
 - No duplicar animaciones de apoyo ni reciclar escenas cambiando títulos o colores. Cada apoyo necesita una acción y evolución propias; conservar la identidad no exige repetir la escena.
 - Dar peso al gancho inicial con una promesa clara y un acento audiovisual. Un acercamiento rápido moderado con sonido breve es una opción expresamente solicitada; ajustar su ejecución al vídeo.
-- Variedad de lenguaje visual, con momentos de objetos o escenas 3D volumétricas cuando aporten a la idea. Fotografías o vídeos inclinados son un recurso 2.5D y no sustituyen esa necesidad. Repetir apoyos 2D y entradas parecidas produce el acabado genérico de IA que el usuario rechaza, aunque los elementos se muevan.
+- Variedad de lenguaje visual mediante metraje, capturas reales, collage, tipografía y animación 2D. No repetir apoyos ni entradas. La preferencia anterior por momentos 3D queda retirada: incluirlos únicamente ante una solicitud expresa del usuario.
 - Movimiento contemporáneo con sentido narrativo. El usuario rechaza las transiciones que fragmentan la pantalla en tiras como adorno; decir «animaciones» no justifica ese recurso. La división del retrato de la primera referencia responde a aquella historia y no se traslada automáticamente a otro reel.
 - Buscar e integrar logos reales de marcas reconocibles cuando su mención lo haga útil; preferir fuentes oficiales. Premiere y CapCut son ejemplos dados por el usuario, no los únicos casos.
 - Rechazo a las infografías planas genéricas, las tarjetas explicativas repetidas y el aspecto de material automático sin dirección de arte.
@@ -23,7 +25,7 @@ Estas preferencias proceden de las instrucciones del usuario, no de atribuirle c
 
 ## 1. How to edit viral reels in After Effects
 
-Archivo local de referencia: `how-to-edit-viral-reels-in-after-effects.mp4` (no incluido). Imagen: 1080 × 1920, 30 fps, 14,00 s; contenedor con audio de aproximadamente 14,07 s. El nombre del archivo no se toma como prueba de viralidad ni como requisito de usar After Effects.
+Archivo: [vídeo de referencia](videos/how-to-edit-viral-reels-in-after-effects.mp4). Imagen: 1080 × 1920, 30 fps, 14,00 s; contenedor con audio de aproximadamente 14,07 s. El nombre del archivo no se toma como prueba de viralidad ni como requisito de usar After Effects.
 
 | Intervalo aproximado | Qué se observa en la secuencia | Qué criterio extraer |
 | --- | --- | --- |
@@ -40,7 +42,7 @@ La presencia de círculos o líneas no convierte esta referencia en una plantill
 
 ## 2. Recent Visual Editing Trends
 
-Archivo local de referencia: `recent-visual-editing-trends.mp4` (no incluido). Imagen: 1080 × 1920, aproximadamente 29,97 fps, 42,14 s; contenedor de aproximadamente 42,19 s.
+Archivo: [vídeo de referencia](videos/recent-visual-editing-trends.mp4). Imagen: 1080 × 1920, aproximadamente 29,97 fps, 42,14 s; contenedor de aproximadamente 42,19 s.
 
 | Intervalo aproximado | Qué se observa en la secuencia | Qué criterio extraer |
 | --- | --- | --- |

@@ -1,5 +1,8 @@
 # Material de trabajo y exportaciones: el repositorio distribuye las skills.
 *.mp4
+# Solo se distribuyen los dos vídeos de referencia aportados para esta skill.
+!skills/reel-editor/references/videos/how-to-edit-viral-reels-in-after-effects.mp4
+!skills/reel-editor/references/videos/recent-visual-editing-trends.mp4
 *.mov
 *.mkv
 *.avi

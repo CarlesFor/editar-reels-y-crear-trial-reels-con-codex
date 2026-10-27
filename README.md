@@ -20,7 +20,7 @@ Dos skills en español para trabajar con Codex: editar un reel a cámara con rit
 - Acceso a los vídeos y permiso de escritura en la carpeta donde guardar las entregas.
 - Herramientas para inspeccionar y renderizar vídeo disponibles para Codex. El motor concreto depende de tu entorno: estas skills reutilizan el editor, proyecto o herramientas que ya tengas establecidos.
 
-Las skills contienen instrucciones y referencias. No incluyen un editor de vídeo, cuentas de servicios, música, bancos de imágenes ni un motor de render. Codex debe comprobar qué puede ejecutar y comunicar cualquier limitación; un plan de montaje no equivale a un vídeo exportado.
+Las skills contienen instrucciones y referencias, incluidos dos vídeos para estudiar el nivel de composición y movimiento. No incluyen un editor de vídeo, cuentas de servicios, música reutilizable, bancos de imágenes ni un motor de render. Codex debe comprobar qué puede ejecutar y comunicar cualquier limitación; un plan de montaje no equivale a un vídeo exportado.
 
 ## Instalación en Windows
 
@@ -109,7 +109,7 @@ La skill trabaja selección y estructura, decide dónde cortar, acercar o abrir 
 
 La dirección actual exige continuidad en la entrada y salida de toda la escena, apoyos con animaciones propias y un inicio que concentre la promesa mediante imagen y sonido. Suavizar solo los subtítulos no corrige un b-roll que aparece completo de golpe. El repertorio incluye logos reales de marcas mencionadas, tipografía con jerarquía y efectos sincronizados, adaptados al contenido.
 
-Consulta [dirección y acabado](skills/reel-editor/references/direccion-y-acabado.md), [control editorial](skills/reel-editor/references/control-editorial.md) y [notas de referencias](skills/reel-editor/references/referencias-aprobadas.md). Los vídeos originales de referencia, la música y los proyectos personales no se distribuyen en este repositorio.
+Consulta [dirección y acabado](skills/reel-editor/references/direccion-y-acabado.md), [control editorial](skills/reel-editor/references/control-editorial.md) y [notas y vídeos de referencia](skills/reel-editor/references/referencias-aprobadas.md). Los dos vídeos se instalan con la skill y sirven para estudiar acabado, ritmo visual y movimiento. Incluirlos no garantiza que las herramientas de cada agente puedan reproducirlos o escucharlos: el agente debe identificar las revisiones que realmente pueda realizar. Su [procedencia y estado de licencia](skills/reel-editor/references/videos/procedencia.md) están documentados; no son material libre para reutilizar en los reels. La música de trabajo y los proyectos personales no se distribuyen.
 
 Si quieres ajustar el estilo, concreta la intención:
 
