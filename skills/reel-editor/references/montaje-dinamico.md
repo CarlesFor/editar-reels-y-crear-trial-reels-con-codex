@@ -2,6 +2,8 @@
 
 Investigación consultada el 26 de octubre de 2026. Esta guía combina documentación de herramientas, ejemplos originales de producción y entrevistas directas con montadores. Las fuentes respaldan los principios indicados junto a cada enlace; los criterios operativos, ejemplos y parámetros de prueba son una adaptación editorial para este usuario. Las técnicas cinematográficas y de subtitulado profesional no demuestran por sí solas mejoras de retención en reels.
 
+Actualización de dirección del 27 de octubre de 2026: esta guía conserva los fundamentos y cálculos técnicos. Aplicar el nivel de dinamismo, b-roll protagonista, reparto tipográfico y diseño sonoro definidos en `SKILL.md` y [dirección y acabado](direccion-y-acabado.md). Los ejemplos discretos de esta guía son recursos puntuales y no un preset suficiente para toda la edición.
+
 ## Contenido
 
 1. Mapa de intención y ritmo.
@@ -87,6 +89,8 @@ Un alejamiento puede recuperar contexto; esa es una de las funciones de abrir f�
 
 Valores propuestos para comparar alternativas en el primer reel. No proceden de ensayos de retención ni sustituyen la inspección del metraje. Aquí, **100% significa el encuadre base ya adaptado a la salida vertical**, no necesariamente el número que muestre el editor.
 
+Comprobar primero el margen de resolución y el gesto. Un original vertical efectivo de 1080 × 1920 exportado a 1080 × 1920 no tiene margen geométrico adicional sin ampliar píxeles; la rotación del archivo debe tenerse en cuenta. Los porcentajes de la tabla no son objetivos que haya que cumplir. Si el recorte no aguanta, obtener el énfasis mediante otro plano, una acción o un apoyo pertinente.
+
 | Prueba | Punto de partida orientativo | Ajuste según resultado |
 | --- | --- | --- |
 | Punch-in por corte | Comparar el plano base con un recorte relativo del 125–145%, si hay margen. | Reducir si corta información o degrada la cara; si el salto queda torpe, probar otro punto, otro plano o mantener el original. |
@@ -115,7 +119,7 @@ No deducir del rótulo «4K» que siempre se puede ampliar al doble. Si se parte
 
 **Aplicación:**
 
-- Elegir el apoyo por la frase exacta: «este botón» necesita el botón; «este error» necesita ver el error; «el resultado» necesita el resultado. Si faltan esos recursos, usar el plano principal o identificar una captura concreta que habría que obtener.
+- Elegir el apoyo por la frase exacta: «este botón» necesita el botón; «este error» necesita ver el error; «el resultado» necesita el resultado. Si faltan esos recursos, buscar u obtener la captura o demostración concreta dentro del alcance autorizado; plantear otra solución visual fiel al contenido si no es posible. Identificar la carencia cuando persista, sin sustituir la evidencia por una tarjeta arbitraria ni dar por completo el acabado.
 - Vincular la entrada del apoyo al instante en que se necesita la información. A veces se anticipa para plantear una pregunta; otras se revela después de la frase. Evitar desvelar el remate antes de tiempo.
 - Cuando haya varios planos del proceso, organizar una pequeña secuencia: contexto, acción, detalle y resultado, usando solo las partes útiles. No exigirla para una explicación que se resuelve con una captura.
 - Mantener una acción completa o el detalle el tiempo suficiente para comprenderlo. Una demostración de interfaz puede necesitar más permanencia que un plano de ambiente.
@@ -139,7 +143,7 @@ No deducir del rótulo «4K» que siempre se puede ampliar al doble. Si se parte
 
 ### Sistema de variedad para este usuario
 
-El repertorio siguiente es una propuesta de diseño propia. Seleccionar tratamientos que encajen con el reel y alternarlos por función, conservando una familia tipográfica y una paleta reconocibles.
+El repertorio siguiente es una propuesta de diseño propia. Seleccionar tratamientos que encajen con el reel y alternarlos por función, coordinando familias tipográficas complementarias, jerarquías y una paleta reconocible. Para este usuario, la variedad y la animación deben ser perceptibles; un único preset de fundido y escala mínima no basta.
 
 | Tratamiento | Función | Movimiento posible |
 | --- | --- | --- |

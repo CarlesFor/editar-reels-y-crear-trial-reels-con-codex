@@ -107,6 +107,10 @@ Entrega el MP4 y los archivos necesarios para repetir la edición.
 
 La skill trabaja selección y estructura, decide dónde cortar, acercar o abrir el encuadre, coordina voz y b-roll, diseña los textos y revisa el resultado que haya podido renderizar. Conserva los originales.
 
+La dirección actual exige continuidad en la entrada y salida de toda la escena, apoyos con animaciones propias y un inicio que concentre la promesa mediante imagen y sonido. Suavizar solo los subtítulos no corrige un b-roll que aparece completo de golpe. El repertorio incluye logos reales de marcas mencionadas, tipografía con jerarquía y efectos sincronizados, adaptados al contenido.
+
+Consulta [dirección y acabado](skills/reel-editor/references/direccion-y-acabado.md), [control editorial](skills/reel-editor/references/control-editorial.md) y [notas de referencias](skills/reel-editor/references/referencias-aprobadas.md). Los vídeos originales de referencia, la música y los proyectos personales no se distribuyen en este repositorio.
+
 Si quieres ajustar el estilo, concreta la intención:
 
 ```text

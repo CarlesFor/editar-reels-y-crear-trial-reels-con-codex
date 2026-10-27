@@ -1,131 +1,97 @@
 ---
 name: reel-editor
-description: Editar reels y vídeos verticales, principalmente de una persona hablando a cámara, con montaje dinámico, b-roll pertinente, retornos al presentador y subtítulos animados de tratamientos variados. También admite voz en off o guion. Usar para realizar o revisar una edición completa; una petición de solo subtítulos o una imagen estática no necesita este flujo.
+description: Editar o revisar reels y vídeos verticales con dirección editorial de mucho dinamismo, b-roll a pantalla completa, composición visual elaborada, tipografía animada y diseño sonoro. Admite persona a cámara, voz en off y guion. Una petición de solo subtítulos o una imagen estática no necesita el flujo completo.
 ---
 
 # Reel editor
 
-Crear un reel que despierte interés, se entienda y tenga una voz reconocible. La edición debe responder al contenido y al material disponible. El objetivo de enganchar es una intención editorial, no una promesa de retención o viralidad.
+Crear una pieza con acabado de editor: historia clara, selección precisa, escenas visuales pertinentes, movimiento trabajado, tipografía expresiva y mezcla sonora. El usuario busca **MUCHO dinamismo**. Ese dinamismo debe percibirse al reproducir la pieza a velocidad normal y sostenerse en todo el montaje, con contrastes de intensidad y momentos de lectura. La corrección técnica es necesaria y no acredita por sí sola la calidad editorial.
 
-## Criterio de edición documentado
+## Dirección permanente de este usuario
 
-Antes de elaborar el montaje, leer [la guía de montaje dinámico](references/montaje-dinamico.md). Aplicar los apartados pertinentes al material: mapa de intención, cortes, acercamientos y alejamientos, composición, b-roll, subtítulos, animación, sonido y revisión. La guía reúne fuentes profesionales enlazadas y distingue sus principios de las adaptaciones propuestas para estos reels.
+- Mantener a la persona como hilo narrativo cuando haya material a cámara. Mostrar su expresión en valoraciones, reacciones, cambios de argumento y remates. Combinar su presencia con secuencias de apoyo que puedan ocupar toda la pantalla; evitar confinar sistemáticamente el b-roll a pequeñas tarjetas sobre su cabeza.
+- Construir escenas que evolucionen mientras se desarrolla la frase: demostración, detalle, transformación o consecuencia. Diseñar algunos b-rolls con animaciones elaboradas y desarrollo interno; no hace falta animarlos todos. Una foto o documento con entrada y zoom suave no satisface por sí solo esta dirección. Interrumpir los tramos de persona a cámara que pierdan interés con apoyos pertinentes a pantalla completa, conservando sus reacciones y remates.
+- Mantener fluidez en todas las animaciones, desde el plano anterior hasta la salida. Un b-roll no debe aparecer completo de golpe mientras solo sus textos tienen easing: diseñar también la entrada y salida de la escena, sus imágenes, fondo y elementos secundarios. Evitar saltos de posición o escala, aceleraciones bruscas y frenadas secas. Corregir el enlace real entre escenas, no solo la curva de los subtítulos. Comprobarlo en movimiento a la cadencia de exportación.
+- No repetir animaciones de b-roll dentro de una pieza ni reciclar escenas de otros reels cambiando texto o color. Cada apoyo debe tener una acción, desarrollo y composición propios. Revisar el conjunto para detectar funciones o recursos duplicados; sustituir la repetición por una solución visual distinta o volver al rostro cuando ese apoyo ya no aporte. La identidad tipográfica puede mantenerse sin reutilizar la misma escena.
+- Dar prioridad editorial al inicio: promesa comprensible desde la primera frase y acento visual y sonoro que dirija la atención. Para este usuario puede funcionar un zoom-in rápido y moderado con un sonido breve sincronizado; ajustar escala, anclaje y frenado al gesto y la voz, sin tapar la primera palabra ni convertirlo en un preset obligatorio para todos los reels.
+- Variar el lenguaje de los apoyos para evitar un acabado genérico de IA («AI slop»). Combinar, según la idea, metraje, captura, collage, animación 2D y b-roll con objetos o escenas 3D volumétricas. Incluir momentos 3D cuando aporten una demostración, una metáfora o una experiencia espacial pertinente; no imponerlos a todos los apoyos. Inclinar fotos, vídeos o tarjetas en perspectiva es un recurso 2.5D y no cubre por sí solo esa necesidad de 3D. Mantener una identidad no obliga a repetir la misma composición y entrada durante todo el reel.
+- Buscar los logos reales de las marcas reconocibles que se mencionen, preferentemente en sus fuentes oficiales, e integrarlos cuando ayuden a identificar de qué se habla. Sincronizar su aparición con la mención; Premiere y CapCut son ejemplos, no una lista cerrada. Conservar proporciones, calidad y procedencia; no inventar ni redibujar de memoria el logo.
+- Buscar un acabado contemporáneo con movimiento diseñado para la idea. Evitar transiciones de plantilla con apariencia anticuada, persianas, cortes en tiras o fragmentaciones de pantalla usados como adorno. Decir «animaciones» no justifica romper el plano: mostrar una escena animada pertinente y con resultado visible. Una división de imagen puede servir a una comparación o transformación concreta, pero necesita esa razón narrativa.
+- Rechazar la estética de infografía genérica: paneles planos repetidos, rectángulos redondeados con listas, cajitas conectadas por flechas, iconos arbitrarios y fondos de rejilla usados para vestir cualquier tema. Animar la entrada de una tarjeta no resuelve su falta de idea visual. Aplicar la distinción entre captura útil y panel inventado en [dirección y acabado](references/direccion-y-acabado.md).
+- Dar a los subtítulos animación visible y tratamiento editorial. Combinar familias tipográficas complementarias con funciones elegidas, jerarquías, pesos, escala y composición. La variedad debe notarse; conservar una identidad no obliga a usar una sola fuente o un único preset durante toda la pieza. Una variación de escala casi imperceptible y un fundido repetidos en todos los grupos no satisfacen esta dirección.
+- Incorporar música que impulse el ritmo y encaje con la energía de la pieza, junto con efectos de sonido perceptibles en las acciones y cambios importantes. No basta con una base ambiental cualquiera ni con efectos que apenas se oyen. Elegir y mezclar por el resultado audiovisual; subir el volumen o el BPM no corrige una música que no encaja. Omitir una capa solo ante una instrucción del usuario o una razón específica del contenido que se pueda explicar; «priorizar la voz» exige mezclar bien, no prescindir automáticamente del diseño sonoro.
+- Las referencias marcan criterio y nivel de elaboración. Extraer relaciones entre voz, escena, tipografía, movimiento y sonido; crear soluciones originales para las frases del nuevo vídeo. No copiar sus composiciones, personajes, objetos, textos, secuencias ni música.
 
-Elegir los recursos a partir de las frases y acciones reales. Para los momentos relevantes, concretar qué se quiere enfatizar, qué recurso lo consigue, dónde empieza y cuándo termina. Usar los valores de prueba de la guía como hipótesis ajustables. No aplicar una lista completa de efectos a todos los reels ni atribuir a las fuentes una receta universal de retención.
+Leer [dirección y acabado](references/direccion-y-acabado.md) y [control editorial](references/control-editorial.md) al realizar una edición completa. Al comenzar un proyecto, leer también [referencias aprobadas](references/referencias-aprobadas.md) para entender el lenguaje visual acordado y localizar sus ejemplos; reutilizar esas notas en las iteraciones del mismo proyecto. Las preferencias explícitas del encargo actual prevalecen sobre esta dirección por defecto.
 
-## Estilo acordado con el usuario
+## Entender material, objetivo y referencias
 
-El material principal suele ser una persona hablando a cámara. El usuario quiere una edición dinámica y llamativa, b-roll que tenga sentido, cortes que devuelvan protagonismo a la persona y subtítulos con animaciones y variedad de tratamiento. Aplicar esta dirección por defecto; adaptar sus recursos al contenido de cada reel. No se necesitan referencias de creadores para empezar.
+Revisar primero instrucciones, perfil de estilo, guion, tomas, apoyos, música y proyectos existentes. Identificar qué debe comprender o sentir el espectador, para quién se edita y qué resultado promete el vídeo. Preguntar solo por decisiones importantes que no consten y no puedan inferirse.
 
-### Persona a cámara y b-roll
+Inventariar orientación, resolución efectiva, rotación, cadencia, pistas y calidad. Inspeccionar imagen en movimiento y audio: la transcripción ayuda a seleccionar y sincronizar, pero no muestra gestos, interpretación, fallos de imagen, ambiente ni intención de las pausas. No inventar diálogos, medios o códigos de tiempo. Si solo hay guion, distinguir una propuesta estimada de un montaje realizable.
 
-- Usar la toma de la persona como hilo conductor de la narración. Mantener su presencia a lo largo del reel, con retornos deliberados después de los apoyos visuales.
-- Localizar frases que ganen al ver algo concreto. Cubrirlas con demostraciones, pantallas, objetos, acciones o detalles relacionados con lo que se oye. Mantener la voz como conexión entre ambos planos cuando corresponda.
-- Volver a la persona al aparecer una opinión, una reacción, una pregunta al espectador, un cambio de argumento o un remate que gane con su expresión. Decidir por la frase y el gesto; evitar alternar cámara y b-roll de forma mecánica.
-- Dar al b-roll tiempo para mostrar lo relevante y retirarlo cuando haya cumplido su función. Evitar encadenar apoyos durante tanto tiempo que se pierda la conexión con quien habla.
-- Dentro de la toma principal, combinar selección de momentos, cortes limpios y cambios de encuadre cuando enfaticen algo. Conservar dirección de mirada, gestos y naturalidad. No fingir otra cámara con un recorte que degrade la imagen.
-- Ejemplo de decisión: si la persona dice «mira este detalle», mostrar el detalle al nombrarlo y volver a su cara para la valoración o reacción siguiente. El subtítulo o una anotación pueden dirigir la mirada hacia ese detalle sin taparlo.
+Con referencias, estudiar secuencias completas y entradas, desarrollo y salidas de momentos relevantes. Anotar qué cambia, cómo conecta con la voz, dónde dirige la mirada y qué aporta el sonido. Usar fotogramas para estudiar composición y estados intermedios; no atribuirles una revisión de ritmo o escucha que no se haya hecho. Las notas portátiles de las referencias aprobadas permiten conservar el criterio entre proyectos. Revisar los vídeos originales cuando estén disponibles; si faltan, aplicar las notas y declarar el límite sin inventar observaciones.
 
-### Subtítulos animados y variados
+## Seleccionar y construir el relato
 
-Diseñar una familia de tratamientos que comparta tipografía, colores y reglas de movimiento. Variar la presentación según la función de la frase; hacer visible la variedad dentro del reel sin cambiar de identidad a cada corte.
+1. Definir la promesa concreta y localizar su evidencia o resolución en las tomas.
+2. Seleccionar la mejor interpretación, no simplemente la primera toma cronológica. Usar el guion para resolver el orden cuando haga falta; conservar el sentido y las palabras realmente grabadas.
+3. Abrir con una idea específica que justifique seguir. Quitar preparación, preámbulos y repeticiones. Conservar el contexto, los matices, gestos y pausas que hagan funcionar la intervención.
+4. Hacer avanzar cada bloque: información nueva, demostración, contraste, consecuencia o reacción. Revisar antes la selección cuando un tramo se estanca; añadir efectos no corrige una idea redundante.
+5. Resolver la promesa y cerrar cuando la idea esté completa. Elegir una llamada a la acción o un bucle por su utilidad, sin añadirlos por sistema.
 
-| Función de la frase | Tratamiento posible |
+La estructura se adapta a cada historia. Mantener el nivel de energía acordado sin imponer una duración, un gancho verbal, una frecuencia de corte o una plantilla narrativa universal.
+
+## Diseñar el montaje antes de producirlo
+
+Separar selección y continuidad de acabado. Mantener una lista de montaje que vincule **tiempos de origen y de salida**. Por bloque, concretar:
+
+| Decisión | Qué debe quedar definido |
 | --- | --- |
-| Continuidad de la explicación | Subtítulos por grupos breves de palabras, con entrada animada discreta y lectura estable. |
-| Énfasis en una palabra o giro | Resaltado de color, cambio de peso o un aumento breve de escala ligado a su pronunciación. |
-| Gancho, pregunta o remate importante | Frase de mayor tamaño, composición propia y aparición por bloques, si el encuadre deja espacio. |
-| Enumeración, pasos o comparación | Elementos que aparecen al nombrarse y permanecen el tiempo necesario para entender la relación. |
-| B-roll con un detalle relevante | Subtítulo situado en el espacio libre y, si ayuda, una etiqueta o señal que identifique el detalle. |
+| Intención | Qué aporta la frase y qué debe observar el espectador. |
+| Imagen | Toma y encuadre; apoyo concreto y procedencia; lenguaje visual elegido —metraje, captura, collage, 2D o 3D volumétrico— y su función; pantalla completa, composición o regreso al rostro. |
+| Evolución | Estado inicial, acción o transformación, resultado y transición al siguiente plano. |
+| Tipografía | Familia y función, palabras que se revelan al pronunciarlas, movimiento y estado de lectura. |
+| Sonido | Voz, papel de la música, efectos con punto de sincronía, contraste o pausa. |
 
-- Elegir los tratamientos que el reel necesite; la tabla ofrece un vocabulario, no una cuota de efectos. Evitar resolver toda la pieza con el mismo preset o cambiar de estilo al azar.
-- Animar entradas, énfasis y transiciones entre bloques, dejando tiempo de lectura estable. Ajustar duración y movimiento a la dicción, la longitud de la frase y la intención. No hacer que el texto llegue tarde por completar una animación.
-- Puede haber seguimiento de palabras o tipografía cinética en pasajes apropiados. Conservar contexto de lectura y reservar los gestos más fuertes para palabras que lo merezcan; no convertir todas las sílabas en un salto.
-- Coordinar subtítulos, cortes y gráficos: decidir qué debe mirar el espectador en cada momento. Reducir movimiento secundario cuando se necesite observar una demostración o una expresión.
-- Cuando una frase pase a ser el titular principal, integrar su transcripción en ese tratamiento y mantener accesible el resto del diálogo; evitar dos capas con las mismas palabras.
-- Ajustar posición a la composición de cada plano con zonas consistentes. No hacer que el texto vague, tape la boca o salte de lado sin motivo.
+Precisar «el recorte del objeto cruza a primer plano al nombrarlo y enlaza con su demostración» en lugar de «poner animación dinámica». Señalar momentos de intensidad y recuperación. Identificar los apoyos que falten y resolver su obtención dentro del encargo; no rellenar ese hueco con una infografía arbitraria.
 
-## Entender el encargo
+Revisar también los intervalos continuados a cámara: concretar qué gesto, reacción o información visual sostiene cada uno y dónde conviene pasar a un apoyo. Reservar algunos momentos para b-roll animado con preparación, acción y resultado durante la frase, en lugar de encadenar apoyos estáticos. No imponer una frecuencia fija de corte ni una cuota de animaciones.
 
-- Revisar primero los archivos, las instrucciones y las preferencias existentes. Identificar tema, público, objetivo, duración orientativa, formato y recursos disponibles. No volver a preguntar lo que ya consta.
-- Pedir únicamente las decisiones que condicionen el resultado y no se puedan inferir. Si faltan preferencias estéticas, proponer una dirección provisional y continuar el trabajo independiente.
-- Ante referencias, inspeccionar las partes accesibles y extraer decisiones concretas: densidad de cortes, uso del silencio, tipografía, encuadre, color y relación entre voz e imagen. No afirmar haber visto un reel si solo se dispone de su descripción o miniatura.
-- Cuando existan varias referencias, buscar lo que comparten y reconocer sus diferencias. Conservar preferencias explícitas del usuario; no convertir cada reel en la misma plantilla.
-- Si hay vídeo o audio, inventariar duración, orientación, resolución, frecuencia de fotogramas, pistas y calidad con herramientas disponibles. Inspeccionar el contenido audiovisual, además de sus metadatos. Una transcripción no revela gestos, respiraciones ni fallos de imagen.
-- Si solo hay guion, elaborar una propuesta de montaje y señalar el material que falta. Los tiempos serán estimaciones hasta disponer de una voz grabada. No inventar clips, citas, transcripciones ni códigos de tiempo de origen.
+Comparar los apoyos como conjunto antes de producirlos: si todos repiten panel, fotografía inclinada, tipografía y el mismo movimiento de entrada, rediseñar los momentos que necesitan otra solución. Identificar dónde un objeto o una escena 3D permite enseñar volumen, interacción o un recorrido que el tratamiento plano no aporta. Definir ese recurso y comprobar que el motor elegido puede realizarlo; no rebautizar una sucesión de planos 2D como 3D.
 
-## Construir la historia
+En reels cuyo discurso presume de animaciones, edición o resultados visuales, la imagen debe mostrar de forma convincente esa cualidad al nombrarse. El montaje forma parte de la demostración: una lista de características, un título que diga «animaciones» o una transición arbitraria sobre el presentador no la sustituyen. Diseñar una acción visual específica y su resolución; consultar los criterios y ejemplos de [dirección y acabado](references/direccion-y-acabado.md).
 
-1. Definir en una frase qué debe entender, sentir o poder hacer el espectador al terminar.
-2. Localizar el momento más concreto que justifique seguir mirando: una demostración, una consecuencia, una pregunta específica o un detalle inesperado. Abrir con él cuando conserve el contexto y la veracidad.
-3. Quitar preámbulos y repeticiones que retrasen la idea. Conservar matices necesarios, personalidad, reacciones y pausas que hagan funcionar la escena.
-4. Organizar los bloques para que cada uno aporte información, evidencia o un avance emocional. Resolver la promesa inicial dentro del reel.
-5. Cerrar cuando la idea haya llegado a su destino. Añadir llamada a la acción o bucle solo si sirven al objetivo y encajan con el contenido.
+## Ejecutar con acabado editorial
 
-No imponer una duración, una estructura de gancho ni un intervalo de cortes universal. Si la pieza pierde interés, revisar primero qué está contando y cuándo lo entrega.
+**Imagen y ritmo.** Construir primero un ensamblado con voz y continuidad que funcione. Después trabajar la gramática de planos: cortes, solapamientos de audio, cambios de escala, secuencias completas de b-roll, comparaciones y retornos al presentador. Elegir las técnicas por la frase y el material. Un zoom leve repetido sobre toda la intervención no aporta la variedad visual solicitada.
 
-## Decidir el montaje
+**Composición y movimiento.** Elegir foco de atención, dirección, escala y recorrido. Integrar recortes con bordes, luz, sombras, perspectiva y textura coherentes cuando la escena lo necesite. Diseñar anticipación, acción, asentamiento y salida. Usar curvas, máscaras, cambios de foco, profundidad y desenfoque de movimiento cuando mejoren el resultado; revisar el movimiento real, no solo su descripción en el proyecto. Evitar deformaciones, halos, sombras pegadas y movimientos automáticos sin motivo.
 
-Antes de añadir un recurso, identificar qué aporta: aclarar, demostrar, dirigir la mirada, conectar escenas, subrayar un momento o expresar humor, carácter y energía acordes con la pieza. Si al quitarlo no se pierde nada útil, considerar eliminarlo. Mantener el acabado dinámico y llamativo solicitado por el usuario.
+**Subtítulos y tipografía.** Transcribir el diálogo completo de la selección final por unidades legibles y sincronizadas; no incluir descartes o repeticiones eliminadas. Repartir los tratamientos por función: lectura fluida, titular, palabra expresiva, comparación, anotación sobre un detalle. Coordinar familias tipográficas, espaciado, proporción y jerarquía. Integrar la transcripción en los titulares para evitar dos capas con las mismas palabras. No adelantar un remate. Comprobar tildes, ñ, signos, cifras, saltos de línea, boca, manos y zonas de interfaz. Movimiento perceptible y lectura estable deben coexistir.
 
-| Situación del material | Decisión editorial |
-| --- | --- |
-| Se explica un paso, un objeto o un resultado | Mostrar la acción, el detalle, la pantalla o una prueba concreta mientras se cuenta. |
-| Cambia la idea o aparece una revelación | Valorar corte, nuevo encuadre o cambio visual que haga perceptible ese avance. |
-| Un gesto, una reacción o una pausa sostienen el interés | Mantener el plano el tiempo necesario para percibirlos. |
-| Una repetición no añade significado | Recortar sin alterar el sentido ni cortar fonemas o gestos de forma torpe. |
-| La explicación se vuelve abstracta | Buscar un ejemplo visible o un gráfico específico antes de añadir decoración. |
-| Solo hay una toma y no hay apoyos útiles | Trabajar selección, duración y encuadre dentro de la calidad disponible; señalar si una captura adicional resolvería un vacío real. |
+**Sonido.** Limpiar y equilibrar las voces preservando timbre y respiración; resolver empalmes y ambiente. Elegir una base musical con tono, instrumentación y desarrollo compatibles con el relato. Diseñar efectos vinculados a acciones y cambios importantes, con variedad de timbre y escala. Evitar un barrido idéntico en cada corte. Trabajar automatización, espacio y silencios deliberados; revisar consonantes, picos, balance y colas. Registrar procedencia y condiciones de uso de música y efectos. No extraerlos de las referencias para reutilizarlos.
 
-- Variar la densidad según el momento: permitir preparación, énfasis y descanso. No rellenar cada pausa ni introducir un cambio cada cierto número fijo de segundos.
-- Usar el corte directo cuando funcione. Desfasar audio e imagen cuando ayude a la continuidad: escuchar la siguiente escena antes de verla o mantener la voz mientras aparece su apoyo visual. No aplicar estos recursos como cuota.
-- Reservar reencuadres y acercamientos para un énfasis o detalle concreto. Comprobar nitidez y composición; evitar zooms de vaivén automáticos.
-- Diferenciar un acercamiento por corte, un zoom animado y un movimiento físico de cámara. Decidir también el retorno al encuadre abierto: resolver un énfasis, mostrar un gesto, recuperar contexto o pasar a otra idea. Aplicar los criterios de escala, anclaje de mirada y resolución de la guía.
-- Elegir apoyos por su relación específica con lo narrado. Si se habla de una herramienta, un error o un resultado, priorizar su demostración real frente a imágenes genéricas de tecnología o personas trabajando.
-- Distinguir una ilustración de una prueba. No presentar imágenes generadas, recreaciones ni material de archivo como documentación del hecho narrado.
-- Una transición llamativa puede servir a una pieza expresiva o musical si tiene una función clara y encaja con la referencia elegida. No usar paquetes de efectos para ocultar un tramo sin contenido.
+**Color y acabado.** Corregir exposición, balance de blancos y diferencias entre tomas. Integrar los apoyos sin forzar todas las fuentes al mismo filtro. Cuidar piel, contraste, detalle, recorte vertical y continuidad; la textura y el grano son recursos elegidos, no un acabado obligatorio.
 
-## Dar coherencia visual y sonora
+Los procedimientos detallados están en [dirección y acabado](references/direccion-y-acabado.md). Consultar [montaje dinámico](references/montaje-dinamico.md) para criterios técnicos de continuidad, anclaje de mirada y margen real de recorte. Su cautela frente a efectos arbitrarios no rebaja la dirección de mucho dinamismo, b-roll protagonista, tipografía elaborada y diseño sonoro de este usuario.
 
-- Elegir una dirección visual breve y consistente con el material: tipografía, jerarquía, color de énfasis y tratamiento de imagen. Reutilizar la identidad existente cuando la haya.
-- Subtitular por unidades de lectura con sentido, sincronizadas con la voz. Corregir nombres y términos con el audio. Usar contraste y tamaño comprobables en móvil; evitar tapar rostros, manos, demostraciones e interfaz de publicación.
-- Distinguir el subtítulo de la anotación editorial y coordinarlos con los tratamientos animados del estilo acordado. Una cifra, comparación o palabra clave puede tener énfasis propio; mantener clara la jerarquía y evitar duplicar el mismo texto.
-- Usar gráficos cuando la relación, escala, secuencia o comparación se entienda mejor al verla. Dar tiempo para leerlos. Mantener fidelidad a los datos disponibles.
-- Priorizar voz inteligible. Limpiar ruido con moderación, equilibrar tomas y comprobar que música y efectos no enmascaren consonantes ni distraigan del mensaje. Evitar una voz metálica o respiraciones cortadas.
-- Conservar ambiente cuando ayude a sentir el lugar. Usar efectos ligados a acciones o énfasis justificados; evitar un golpe o un barrido sonoro en cada aparición de texto.
-- Elegir música y su presencia según el tono. El silencio también es una opción. En piezas dominadas por la voz, no forzar todas las frases a la cuadrícula musical.
-- Corregir exposición, balance de blancos y diferencias entre tomas antes de estilizar. Respetar pieles y detalle; adaptar el acabado a las referencias y al material.
+## Recursos y herramientas
 
-## Ejecutar y entregar
+Revisar las herramientas y el proyecto local antes de elegir motor. Reutilizar el flujo establecido cuando permita alcanzar el acabado. Elegir capacidades que ejecuten el diseño: máscaras, curvas, composición, tipografía y mezcla según sean necesarias. No reducir el diseño al efecto más fácil de programar ni presentar una limitación del motor como decisión estética.
 
-- Comprobar las herramientas locales y el proyecto existente antes de elegir motor. Reutilizar el editor o flujo que el usuario tenga establecido. No instalar dependencias, contratar servicios ni generar recursos costosos por mera disponibilidad.
-- Separar las decisiones creativas de la ejecución: mantener una lista de montaje con fragmentos de origen, orden de salida, texto, apoyos y decisiones de sonido. Ajustar su detalle a la complejidad; no exigir un archivo adicional para una edición trivial.
-- En una edición elaborada, anotar por bloque la intención, el foco visual, el encuadre o b-roll, el tratamiento de subtítulos y el sonido. Marcar los momentos de mayor intensidad y sus descansos. Esta planificación debe producir decisiones concretas sobre el material, no una descripción genérica de efectos.
-- No modificar los originales. Guardar proyectos y exportaciones en rutas claras del espacio autorizado y evitar sobrescribir entregas previas sin necesidad.
-- Construir primero una versión que funcione por contenido, selección y continuidad; después añadir acabado visual y sonoro. Continuar hasta la entrega autorizada sin convertir estas fases internas en aprobaciones obligatorias.
-- A partir de metraje, vincular las decisiones a intervalos reales. Distinguir tiempo de origen y tiempo de salida. Si se usa edición mediante código, conservar también los archivos necesarios para repetir el render.
-- Como punto de partida para una entrega vertical sin otra especificación, valorar MP4 H.264 con audio AAC, 9:16 y 1080 × 1920 si el material lo permite. Mantener una cadencia adecuada al origen. Adaptar estos valores al destino y al encargo; no recortar información esencial ni ampliar material pequeño para cumplir una cifra.
-- Si no hay herramientas para una parte del trabajo, completar lo realizable y precisar la limitación. No presentar una tabla de cortes, un guion o un proyecto sin renderizar como un vídeo terminado.
+Buscar primero apoyos y audio disponibles. Obtener material adicional pertinente con procedencia y condiciones de uso identificables cuando el encargo y las herramientas lo permitan. No contratar servicios, instalar dependencias ni generar recursos costosos por mera disponibilidad. Distinguir una ilustración o recreación de una prueba documental; no fabricar pantallas, resultados, cifras, testimonios o funciones de un producto.
 
-## Revisar el resultado real
+Si falta un recurso importante, intentar una solución editorial original y fiel al contenido. Si sigue sin poder alcanzarse el acabado, completar lo viable e identificar concretamente la carencia; no declarar satisfecho un criterio que falta ni sustituirlo silenciosamente por paneles genéricos. No convertir las fases internas en aprobaciones obligatorias; continuar hasta la entrega autorizada. Si el usuario pide únicamente analizar, proponer o modificar la skill, respetar ese alcance y no editar su vídeo.
 
-Reproducir el render completo con imagen y audio cuando las herramientas lo permitan. Revisar además momentos representativos a tamaño móvil; los fotogramas aislados no bastan para evaluar el ritmo.
+## Revisar, corregir y entregar
 
-- ¿La apertura ofrece algo concreto y el resto cumple esa expectativa?
-- ¿Hay tramos que repiten o retrasan la idea? ¿Los recursos visuales aportan algo específico?
-- ¿Se han mantenido el significado, la naturalidad de la voz y las reacciones necesarias?
-- ¿La persona conserva protagonismo y los retornos a cámara coinciden con momentos expresivos o avances del argumento? ¿Cada b-roll corresponde a lo que se está contando?
-- ¿Los subtítulos son correctos, legibles y están sincronizados? ¿Hay tiempo suficiente para leer textos y gráficos?
-- ¿Los subtítulos tienen variedad perceptible y coherente? ¿Sus animaciones refuerzan la intención sin competir con los gestos, las demostraciones ni la lectura?
-- ¿Son coherentes el encuadre, el color y la jerarquía visual? ¿Hay recortes que oculten información?
-- ¿Los zooms tienen entrada y salida motivadas, mantienen la mirada estable y respetan el margen real de recorte? ¿Los momentos intensos contrastan con otros de lectura más estable?
-- ¿Se oyen cortes, ruido, distorsión, saltos de volumen o música que tapa la voz?
-- ¿Hay fotogramas negros, congelaciones accidentales, recursos ausentes o un final truncado?
+Aplicar [control editorial](references/control-editorial.md) a la **pieza exportada**. Revisar el conjunto con imagen y audio cuando las herramientas lo permitan, y después los momentos problemáticos con contexto y a tamaño móvil. Comparar el nivel de elaboración con los principios de las referencias, sin copiar sus escenas.
 
-Corregir los problemas observados y volver a revisar las partes afectadas. No afirmar una revisión visual o sonora que no se haya podido realizar.
+La revisión abarca relato, interpretación, ritmo, continuidad, encuadre, b-roll, dirección de arte, tipografía, movimiento, color y sonido. Localizar problemas por tiempo y corregirlos. Un recurso presente puede estar mal resuelto: ni «hay b-roll», ni «hay keyframes», ni «la voz pasa una prueba automática» prueban un buen acabado. Las capturas, la transcripción automática y los controles de negros o volumen complementan la revisión perceptiva y no la sustituyen. Declarar las revisiones que realmente se hayan podido hacer.
 
-Entregar los enlaces al vídeo y al proyecto o archivos reproducibles que existan, resumir las decisiones editoriales relevantes e indicar cualquier limitación pendiente. Si el encargo era solo proponer la edición, entregar la propuesta como tal.
+No dar por terminado un montaje que siga en fase de ensamblado, que se sostenga en tarjetas repetidas, que tenga subtítulos esencialmente estáticos o que omita sin explicación la música y los efectos pedidos. Si no es posible resolver un requisito, entregar lo realizable con esa limitación explícita; no presentarlo como validación completa.
 
-## Afinar el criterio con el usuario
+Conservar los originales. Guardar proyecto, recursos usados, lista de montaje y archivos reproducibles. Evitar sobrescribir entregas previas sin necesidad. Como salida vertical por defecto, valorar MP4 H.264/AAC a 1080 × 1920 y cadencia adecuada al origen; adaptar al material y al destino sin recortar información esencial ni ampliar imágenes pequeñas para cumplir una cifra.
 
-Tras comentarios o comparaciones reales, registrar únicamente preferencias confirmadas y reutilizables en el perfil de estilo del proyecto, si lo hay. Diferenciar una preferencia general de una decisión propia de ese reel. No atribuir mejoras de retención a la edición sin datos comparables.
+Entregar enlaces al vídeo y al proyecto existente, decisiones editoriales relevantes y limitaciones pendientes. Una propuesta o un proyecto sin render no es un vídeo terminado. Registrar en el perfil del proyecto solo preferencias generales confirmadas por el usuario. Mantener estas referencias y el criterio entre proyectos; adaptar las soluciones a cada historia. No prometer perfección, retención o viralidad garantizadas.
